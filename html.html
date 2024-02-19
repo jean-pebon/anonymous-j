@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu de clics</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <div id="barre-laterale" class="barre-laterale">
+        <span id="titre-z">Améliorations</span> <br>
+        <button class="bouton-laterale" onclick="améliorer(1, 100, 1)" id="upgrade-1">+1 -100</button> <br>
+        <button class="bouton-laterale" onclick="améliorer(2, 350, 2)" id="upgrade-2">+2 -350</button> <br>
+        <button class="bouton-laterale" onclick="améliorer(3, 750, 4)" id="upgrade-3">+4 -750</button> <br>
+        <button class="bouton-laterale" onclick="améliorer(4, 2250, 7)" id="upgrade-4">+7 -2250</button> <br>
+        <button class="bouton-laterale" onclick="améliorer(5, 4000, 15)" id="upgrade-5">+15 -4000</button> <br>
+        <button class="bouton-laterale" onclick="améliorer(6, 15000, 30)" id="upgrade-6">+30 -15000</button> <br>
+        <button class="bouton-laterale" onclick="améliorer(7, 75000, 60)" id="upgrade-7">+60 -75000</button> <br>
+    </div>
+
+    <p id="roubles">0 roubles</p>
+    <button class="bouton" onclick="clic()">clics for roubles</button>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
