@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jeu de clics</title>
+    <title>clicker.io</title>
     <link rel="stylesheet" href="css.css">
 </head>
 <body>
@@ -18,9 +18,23 @@
         <button class="bouton-laterale" onclick="améliorer(7, 75000, 60)" id="upgrade-7">+60 -75000</button> <br>
     </div>
 
+    <div class="barre-laterale-droite" class="barre-laterale">
+        <span id="titre-y">fond</span><br>
+        <button class="bouton-fond" onclick="changerFond(1, 10)" id="changement-1">petite fleur</button><br>
+        <button class="bouton-fond" onclick="changerFond(2, 10)" id="changement-2">bikini bottom</button><br>
+        <button class="bouton-fond" onclick="changerFond(3, 10)" id="changement-3">dinotrain</button><br>
+        <button class="bouton-fond" onclick="changerFond(4, 10)" id="changement-4">champ de patate</button><br>
+        <button class="bouton-fond" onclick="changerFond(5, 10)" id="changement-5">toothless</button><br>
+        <button class="bouton-fond" onclick="changerFond(6, 10)" id="changement-6">matt</button><br>
+        <button class="bouton-fond" onclick="changerFond(7, 10)" id="changement-7">betoniere</button><br>
+    </div>
+    
+
     <p id="roubles">0 roubles</p>
     <button class="bouton" onclick="clic()">clics for roubles</button>
 
     <script src="javascript.js"></script>
 </body>
+
+
 </html>
