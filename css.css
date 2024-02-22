@@ -27,11 +27,27 @@ body {
     padding: 20px;
     overflow-y: auto;
 }
-
+.barre-laterale-droite {
+    width: 200px;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    padding: 20px;
+    overflow-y: auto;
+}
 .titre-z {
-    color: #fcc604;
-    font-size: 24px;
-    margin-bottom: 20px;
+    color: #ffffff;
+    text-align: center; /* Centrer le texte */
+    margin-bottom: 20px; /* Ajouter un espace en dessous du titre */
+    
+}
+.titre-y {
+    color: #ffffff;
+    text-align: center; /* Centrer le texte */
+    margin-bottom: 20px; /* Ajouter un espace en dessous du titre */
+    
 }
 
 /* Styles pour les boutons dans la barre latérale */
@@ -46,10 +62,26 @@ body {
     color: white;
     font-size: 16px;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: background-color 1s;
+}
+.bouton-laterale:hover {
+    background-color: #e8bb08;
+}
+.bouton-fond {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 1s;
 }
 
-.bouton-laterale:hover {
+.bouton-fond:hover {
     background-color: #e8bb08;
 }
 
@@ -76,6 +108,7 @@ body {
     padding: 15px 50px;/*taille*/
     margin: 0 auto;
     border-radius: 50px; /* Coins arrondis */
+    
 }
 
 .bouton:hover {
