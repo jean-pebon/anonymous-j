@@ -37,17 +37,26 @@ body {
     padding: 20px;
     overflow-y: auto;
 }
-.titre-z {
+#titre-z {
+    font-size: 20px; 
+    font-weight: bold;
     color: #ffffff;
-    text-align: center; /* Centrer le texte */
-    margin-bottom: 20px; /* Ajouter un espace en dessous du titre */
-    
+    text-align: center; 
+    margin-bottom: 20px; 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
 }
-.titre-y {
-    color: #ffffff;
-    text-align: center; /* Centrer le texte */
-    margin-bottom: 20px; /* Ajouter un espace en dessous du titre */
+#titre-y {
     
+    font-size: 20px; 
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center; 
+    margin-bottom: 20px; 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
 }
 
 /* Styles pour les boutons dans la barre latérale */
@@ -80,7 +89,6 @@ body {
     cursor: pointer;
     transition: background-color 1s;
 }
-
 .bouton-fond:hover {
     background-color: #e8bb08;
 }
