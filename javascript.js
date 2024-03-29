@@ -1,15 +1,12 @@
 var roubles = 0;
 var prime = 0;
-
 function clic() {
     roubles += 1 + prime;
     miseÀJourTexte();
 }
-
 function miseÀJourTexte() {
     document.getElementById("roubles").innerHTML = roubles + " roubles";
 }
-
 function améliorer(index, coût, gain) {
     if (roubles >= coût) {
         prime += gain;
@@ -19,11 +16,9 @@ function améliorer(index, coût, gain) {
         miseÀJourTexte();
     }
 }
-
 function changerFond(index, coût) {
     if (roubles >= coût) {
         roubles -= coût;
-
         var imageUrl;
         switch(index) {
             case 1:
@@ -50,10 +45,8 @@ function changerFond(index, coût) {
             default:
                 imageUrl = "";
         }
-        
         document.body.style.backgroundImage = imageUrl;
         document.body.style.backgroundSize = "1200px auto";
-
         miseÀJourTexte();
     }
 }
